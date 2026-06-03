@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor para chat en vivo",
+  "keywords": [
+    "NodeJs",
+    "MySql",
+    "ORM",
+    "Express",
+    "JavaScript"
+  ],
+  "license": "ISC",
+  "author": "David Pérez González",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "csurf": "^1.11.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
